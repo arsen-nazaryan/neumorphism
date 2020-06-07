@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neumorphism | Searching & Filtering"/>
+    <meta name="keywords" content="Searching & Filtering, Neumorphism, Searching, Filtering, Search, Filter"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta property="og:image" content="img/og.jpg"/>
+    <link rel="shortcut icon" href="img/favicon/favicon-32.png"/>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Neumorphism | Searching & Filtering</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="content">
+
+        <div class="content_info" id="content_infos">
+
+            <form class="form-box">
+                <h2 class="form-title"><span>neumorphism</span> Searching & Filtering</h2>
+                <label for="search-text"></label>
+                <input type="text" id="search-text" placeholder="search...  |  filter..." autocomplete="off">
+
+                <div class="btns">
+                    <button id="search-btn" type="button">Search</button>
+                    <button id="top-filter" type="button">Filters</button>
+                </div>
+            </form>
+
+            <div class="users-box" id="user-block"></div>
+        </div>
+
+        <div class="content-filter" id="content-filters">
+            <div class="filters" id="filters-box">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="">---</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Russian">Russian</option>
+                    <option value="France">France</option>
+                    <option value="USA">USA</option>
+                </select>
+
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="">---</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="age">Age</label>
+                <select name="age" id="age">
+                    <option value="">---</option>
+                    <option value="7">7</option>
+                    <option value="18">18</option>
+                    <option value="29">29</option>
+                    <option value="33">33</option>
+                    <option value="39">39</option>
+                    <option value="48">48</option>
+                    <option value="53">53</option>
+                    <option value="60">60</option>
+                </select>
+
+                <button id="update-btn" type="button">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/user_info.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
